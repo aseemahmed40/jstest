@@ -1,0 +1,51 @@
+body{
+    background-color: pink;
+    justify-content: center;
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    
+}
+
+
+#calculator{
+    height: 230px;
+    width: 160px;
+    border-radius: 10px;
+    border:2px solid rgb(255, 255, 255);
+    background-color: rgb(180, 177, 177);
+    margin-top: 100px;
+    margin-left: 500px;
+    
+
+}
+
+#display{
+    margin: 10px;
+    width: 125px;
+    margin-left: 13px;
+}
+
+.button-container{
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+border-radius: 8px;
+
+}
+
+.btn{
+    width: 32px;
+    height: 35px;
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 50px;
+    
+}
+
+#display{
+    background-color: rgb(180, 207, 144);
+}
